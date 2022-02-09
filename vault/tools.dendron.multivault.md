@@ -2,7 +2,7 @@
 id: fba3849f-f6b2-46be-99d5-803c83ed12fe
 title: Multivault
 desc: ''
-updated: 1629634090100
+updated: 1644389556141
 created: 1620900150692
 ---
 
@@ -62,13 +62,13 @@ the default vault name is vault
 https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#renaming-a-vault -->
 
 go to github a create a new private repo
-https://github.com/oolonek/dendron-ws-private.git
+https://github.com/leeeo/dendron-ws-private.git
 
 at the ws level
 git init
 git add . 
 git commit -m 'initial commit'
-git remote add origin https://github.com/oolonek/dendron-ws-private.git
+git remote add origin https://github.com/leeeo/dendron-ws-private.git
 git push -u origin main
 (complains)
 git pull origin main  
@@ -77,7 +77,7 @@ git pull origin main
 git push -u origin main
 
 repeat steps for ws-public
-https://github.com/oolonek/dendron-ws-public
+https://github.com/leeeo/dendron-ws-public
 
 now we publish both dendron
 https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b.html
@@ -87,7 +87,7 @@ We head directly for github action powered publication.
 
 So just change your dendron.yml  by adding
 
-    siteUrl: https://oolonek.github.io
+    siteUrl: https://leeeo.github.io
     assetsPrefix: dendron-ws-public
 
 Then we follow
@@ -109,7 +109,7 @@ We modify the dendron.yml to have the gh edit link
 
     gh_edit_link: true
     gh_edit_link_text: Click here to edit this page on Github !
-    gh_edit_repository: 'https://github.com/oolonek/dendron-ws-public'
+    gh_edit_repository: 'https://github.com/leeeo/dendron-ws-public'
     gh_edit_branch: main
     gh_edit_view_mode: edit
     assetsPrefix: dendron-ws-public
@@ -124,7 +124,7 @@ All seems to be set up correctly
 Now we will vault add the dendron-ws-public as a remote vault in the private ws
 
 this should be done at the vault level (in the dendron-private-vault)
-We cmd+shit+p vault add and enter https://github.com/oolonek/dendron-ws-public.git 
+We cmd+shit+p vault add and enter https://github.com/leeeo/dendron-ws-public.git 
 and two time enter this allows us to have the vault name changed to dendron-ws-public
 
 

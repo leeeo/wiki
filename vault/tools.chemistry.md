@@ -2,7 +2,7 @@
 id: ef30ffe6-64fa-4946-b822-b7b07ebc58e6
 title: Chemistry
 desc: ''
-updated: 1610297235967
+updated: 1644389486131
 created: 1609601718009
 ---
 
@@ -26,7 +26,7 @@ OC(=O)\C=C(\C)/C=C/[C@@]1(O)C(C)=CC(=O)CC1(C)C
 
 ````
 
-See https://github.com/oolonek/dendron/runs/1636940880
+See https://github.com/leeeo/wiki/runs/1636940880
 
 
 
