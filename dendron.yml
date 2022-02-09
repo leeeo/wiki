@@ -1,5 +1,10 @@
 version: 4
+useFMTitle: true
+useNoteTitleForLink: true
 mermaid: true
+useKatex: true
+dev:
+    enablePreviewV2: true
 site:
     copyAssets: true
     assetsPrefix: wiki
@@ -23,9 +28,7 @@ site:
     logo: vault/assets/images/network-5572119__340.png
     siteUrl: 'https://leeeo.github.io/'
     siteLastModified: true
-    # siteProtocol: https
     usePrettyRefs: true
-    # gh_edit_link: true
     gh_edit_link_text: Click here to edit this page on Github !
     gh_edit_repository: 'https://github.com/leeeo/wiki'
     gh_edit_branch: main
@@ -34,9 +37,6 @@ site:
     author: leeeo
     ga_tracking: G-Q7CCXNMLRB
     description: Personal knowledge space
-dev:
-    # previewV2Enabled: false
-    enablePreviewV2: true
 commands:
     lookup:
         note:
@@ -107,6 +107,3 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
-useFMTitle: true
-useNoteTitleForLink: true
-useKatex: true
