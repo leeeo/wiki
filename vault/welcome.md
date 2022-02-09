@@ -2,7 +2,7 @@
 id: 9ca62419-9479-47ad-ae8c-3be28fedf883
 title: Welcome
 desc: ''
-updated: 1611681892378
+updated: 1644389568090
 created: 1610305264087
 ---
 
@@ -32,6 +32,6 @@ It is a first attempt to commit to :
 Pass at the workshop and grab a coffee ☕ or whatever you like. Let's chat ! Help me grow this dendron, let's add leaves 🍃 or prune ✂️ branches together 🤝 ! 
 To add comments and suggestions two possibilities :
 
-  - raise an issue here : https://github.com/oolonek/dendron/issues
+  - raise an issue here : https://github.com/leeeo/wiki/issues
   - 👇 Directly edit this file on github using the link below 👇
 

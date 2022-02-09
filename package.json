@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oolonek/dendron.git"
+    "url": "git+https://github.com/leeeo/wiki.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oolonek/dendron/issues"
+    "url": "https://github.com/leeeo/wiki/issues"
   },
-  "homepage": "https://github.com/oolonek/dendron#readme",
+  "homepage": "https://github.com/leeeo/wiki#readme",
   "dependencies": {
     "@dendronhq/dendron-11ty": "^1.40.0",
     "@dendronhq/dendron-cli": "^0.40.0"
