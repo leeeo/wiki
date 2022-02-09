@@ -23,9 +23,9 @@ site:
     logo: vault/assets/images/network-5572119__340.png
     siteUrl: 'https://leeeo.github.io/'
     siteLastModified: true
-    siteProtocol: https
+    # siteProtocol: https
     usePrettyRefs: true
-    gh_edit_link: true
+    # gh_edit_link: true
     gh_edit_link_text: Click here to edit this page on Github !
     gh_edit_repository: 'https://github.com/leeeo/wiki'
     gh_edit_branch: main
@@ -35,7 +35,7 @@ site:
     ga_tracking: G-Q7CCXNMLRB
     description: Personal knowledge space
 dev:
-    previewV2Enabled: false
+    # previewV2Enabled: false
     enablePreviewV2: true
 commands:
     lookup:
